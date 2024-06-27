@@ -1,0 +1,503 @@
+.accessToWide {
+  width: 1063px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.solutionsContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 81.7px 73px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.forStudents {
+  margin: 0;
+  width: 314px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.accessContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 24.7px 82px;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.networkingOpportunities {
+  width: 399px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.networkingOpportunitiesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 7.7px 611px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+}
+.byConnectingWith {
+  height: 161px;
+  width: 514px;
+  position: relative;
+  line-height: 22.4px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-height: 161px;
+  max-width: 100%;
+}
+.byConnectingWithStartupsAnWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 64.7px 726px;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.byConnectingWithStartupsAnWrapper,
+.divider,
+.dividerWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider {
+  width: 629px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  z-index: 1;
+}
+.dividerWrapper {
+  height: 215.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xl) 214.7px;
+  margin-top: -1.7px;
+}
+.additionalBenefits {
+  width: 353px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.additionalBenefitsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 12.7px 125px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.forStartups {
+  margin: 0;
+  width: 314px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.networkingTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 42.7px 138px;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.keyBenefitsFor {
+  width: 449px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.keyBenefitsForStartupsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-54xl-7) 139px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.globalExpansionOpportunities {
+  width: 484px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.globalExpansionOpportunitiesWrapper {
+  width: 794px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 6.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+}
+.breakingDownGeographic {
+  width: 545px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.breakingDownGeographicBarriWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-34xl) 10.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+}
+.networkStartupsCan {
+  height: 115px;
+  width: 514px;
+  position: relative;
+  line-height: 22.4px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-height: 115px;
+  max-width: 100%;
+}
+.networkStartupsCanOvercomeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 162.7px 778px;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.callToAction,
+.callToActionWrapper,
+.networkStartupsCanOvercomeWrapper {
+  align-self: stretch;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.callToAction {
+  width: 629px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  z-index: 1;
+}
+.callToActionWrapper {
+  height: 160.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 159.7px 202px;
+  margin-top: -1.7px;
+}
+.readyToTake {
+  width: 1120px;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.benefitsContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-54xl-7);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.exploreBigstartupsNetworks {
+  width: 944px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.expansion {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 80.7px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+.frameChild {
+  height: 75px;
+  width: 445px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--ys-primary-color);
+  display: none;
+  max-width: 100%;
+}
+.joinNow {
+  width: 146px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--background-color);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-xl);
+  background-color: var(--ys-primary-color);
+  width: 445px;
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.rectangleParent:hover {
+  background-color: var(--color-orangered);
+}
+.expansionContent,
+.rectangleParent,
+.workWithStartups {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.expansionContent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+}
+.workWithStartups {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-color);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 4285px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1350px) {
+  .solutionsContent {
+    padding-left: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .byConnectingWithStartupsAnWrapper {
+    padding-left: 363px;
+    box-sizing: border-box;
+  }
+  .networkStartupsCanOvercomeWrapper {
+    padding-left: 389px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .callToActionWrapper,
+  .networkingOpportunitiesWrapper {
+    padding-left: 305px;
+    box-sizing: border-box;
+  }
+  .callToActionWrapper {
+    padding-left: 101px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .accessToWide {
+    font-size: var(--font-size-13xl);
+  }
+  .forStudents {
+    font-size: var(--font-size-19xl);
+  }
+  .networkingOpportunities {
+    font-size: var(--font-size-7xl);
+  }
+  .networkingOpportunitiesWrapper {
+    padding-left: 152px;
+    box-sizing: border-box;
+  }
+  .byConnectingWithStartupsAnWrapper {
+    padding-left: 181px;
+    box-sizing: border-box;
+  }
+  .additionalBenefits {
+    font-size: var(--font-size-13xl);
+  }
+  .additionalBenefitsWrapper {
+    padding-left: var(--padding-43xl);
+    box-sizing: border-box;
+  }
+  .forStartups {
+    font-size: var(--font-size-19xl);
+  }
+  .networkingTitle {
+    padding-left: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+  .keyBenefitsFor {
+    font-size: var(--font-size-10xl);
+  }
+  .keyBenefitsForStartupsWrapper {
+    padding-left: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+  .breakingDownGeographic,
+  .globalExpansionOpportunities {
+    font-size: var(--font-size-7xl);
+  }
+  .breakingDownGeographicBarriWrapper {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .networkStartupsCanOvercomeWrapper {
+    padding-left: 194px;
+    box-sizing: border-box;
+  }
+  .exploreBigstartupsNetworks,
+  .readyToTake {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .accessToWide {
+    font-size: var(--font-size-5xl);
+  }
+  .forStudents {
+    font-size: var(--font-size-10xl);
+  }
+  .accessContent {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .networkingOpportunities {
+    font-size: var(--font-size-lgi);
+  }
+  .networkingOpportunitiesWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .byConnectingWith {
+    font-size: var(--font-size-base);
+  }
+  .byConnectingWithStartupsAnWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .additionalBenefits {
+    font-size: var(--font-size-5xl);
+  }
+  .forStartups {
+    font-size: var(--font-size-10xl);
+  }
+  .keyBenefitsFor {
+    font-size: var(--font-size-3xl);
+  }
+  .keyBenefitsForStartupsWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .breakingDownGeographic,
+  .globalExpansionOpportunities {
+    font-size: var(--font-size-lgi);
+  }
+  .networkStartupsCan {
+    font-size: var(--font-size-base);
+  }
+  .callToActionWrapper,
+  .networkStartupsCanOvercomeWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .exploreBigstartupsNetworks,
+  .readyToTake {
+    font-size: var(--font-size-3xl);
+  }
+}

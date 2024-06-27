@@ -1,0 +1,83 @@
+.morningSlotsChild {
+  height: 76px;
+  width: 180px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  display: none;
+}
+.am {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.morningSlots {
+  cursor: pointer;
+  border: 1px solid var(--ys-primary-color);
+  padding: var(--padding-5xl) var(--padding-7xl) var(--padding-5xl)
+    var(--padding-9xl);
+  background-color: var(--background-color);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.afternoonSlots:hover,
+.afternoonSlotsChild,
+.morningSlots:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+}
+.afternoonSlotsChild {
+  height: 76px;
+  width: 180px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--ys-primary-color);
+  display: none;
+}
+.am1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 124px;
+  z-index: 1;
+}
+.afternoonSlots,
+.timeSlots {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.afternoonSlots {
+  cursor: pointer;
+  border: 1px solid var(--ys-primary-color);
+  padding: var(--padding-5xl) var(--padding-7xl) var(--padding-5xl)
+    var(--padding-9xl);
+  background-color: var(--background-color);
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.timeSlots {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-16xl);
+  min-width: 117px;
+}

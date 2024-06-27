@@ -1,0 +1,186 @@
+.frameChild {
+  align-self: stretch;
+  height: 270px;
+  position: relative;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+}
+.gridiconsstory {
+  margin: 0;
+  height: 23px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 23px;
+  z-index: 2;
+}
+.buisnessConsulting {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.buisnessConsultingWrapper,
+.gridiconsstoryParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buisnessConsultingWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.gridiconsstoryParent {
+  width: 202px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.theFutureOf {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.contentCellInner,
+.gridItem,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gridItem {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-10xs);
+  font-size: var(--font-size-xl);
+}
+.contentCellInner,
+.rectangleParent {
+  flex-direction: column;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-darkgray);
+  justify-content: flex-end;
+  padding: var(--padding-151xl) var(--padding-9xs) var(--padding-mid);
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.contentCellInner {
+  flex: 1;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  min-width: 278px;
+}
+.contentCellChild {
+  align-self: stretch;
+  height: 270px;
+  position: relative;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  display: none;
+}
+.gridiconsstory1 {
+  margin: 0;
+  height: 23px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 23px;
+  z-index: 2;
+}
+.buisnessConsulting1 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 2;
+}
+.buisnessConsultingContainer,
+.gridItem1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buisnessConsultingContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+}
+.gridItem1 {
+  width: 202px;
+  flex-direction: row;
+  gap: var(--gap-11xs);
+}
+.theFutureOf1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.gridItem2 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.contentCell,
+.contentCell1,
+.gridItem2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.contentCell1 {
+  flex: 0.9766;
+  background-color: var(--background-color);
+  border: 1px solid var(--color-darkgray);
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-151xl) var(--padding-9xs) var(--padding-mid);
+  gap: var(--gap-5xs);
+  min-width: 278px;
+  z-index: 1;
+}
+.contentCell {
+  width: 929px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-56xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .contentCell1,
+  .contentCellInner {
+    flex: 1;
+  }
+  .contentCell {
+    flex-wrap: wrap;
+    gap: var(--gap-18xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .theFutureOf,
+  .theFutureOf1 {
+    font-size: var(--font-size-base);
+  }
+  .contentCell {
+    gap: var(--gap-lgi);
+  }
+}

@@ -1,0 +1,333 @@
+.consultingTypeLabelChild,
+.frameChild {
+  height: 85px;
+  width: 817px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.frameChild {
+  height: 74px;
+  width: 392px;
+  background-color: var(--color-mistyrose);
+}
+.startupConsulting {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 2;
+}
+.rectangleParent {
+  width: 392px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mistyrose);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-45xl) var(--padding-3xl)
+    var(--padding-52xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.careerConsulting {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.careerType,
+.consultingTypeLabel,
+.slotsType {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.careerType {
+  width: 247px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  color: var(--text-secondary);
+}
+.consultingTypeLabel,
+.slotsType {
+  flex-direction: row;
+  max-width: 100%;
+}
+.consultingTypeLabel {
+  width: 817px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-3xs) var(--padding-8xs);
+  gap: var(--gap-65xl);
+}
+.slotsType {
+  width: 1071px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.calendarDaysChild {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.calendarDays {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.today {
+  position: relative;
+  display: inline-block;
+  min-width: 67px;
+}
+.todayLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl);
+}
+.available {
+  width: 151px;
+  height: 35px;
+  position: relative;
+  color: var(--color-mediumblue);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.todayAvailability {
+  width: 206px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.tomorrow1 {
+  position: relative;
+  display: inline-block;
+  min-width: 113px;
+}
+.tomorrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+}
+.available1 {
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  color: var(--color-mediumblue);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.tomorrowAvailability,
+.tomorrowLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tomorrowLabel {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.tomorrowAvailability {
+  width: 162px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+}
+.sat1may {
+  position: relative;
+  display: inline-block;
+  min-width: 109px;
+}
+.saturday {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+}
+.available2 {
+  align-self: stretch;
+  height: 35px;
+  position: relative;
+  color: var(--color-mediumblue);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.saturdayAvailability,
+.saturdayLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.saturdayLabel {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.saturdayAvailability {
+  width: 151px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.calendarDaysItem {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.calendarDays1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.calendar,
+.slotsTypeRow {
+  align-self: stretch;
+  display: flex;
+}
+.calendar {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+}
+.slotsTypeRow {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-28xl);
+  max-width: 100%;
+}
+.indicatorContainerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.dateIndicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--ys-primary-color);
+  width: 301px;
+  height: 8px;
+  z-index: 1;
+}
+.indicatorContainer {
+  height: 8px;
+  width: 940px;
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  max-width: 100%;
+}
+.calendarIndicator {
+  width: 1124px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.calendarIndicator,
+.slotsContent,
+.slotsTypes {
+  display: flex;
+  max-width: 100%;
+}
+.slotsTypes {
+  width: 1151px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.slotsContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-17xl) var(--padding-59xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--ys-primary-color);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1200px) {
+  .slotsContent {
+    padding-left: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .calendar,
+  .consultingTypeLabel {
+    flex-wrap: wrap;
+  }
+  .calendar {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .careerConsulting {
+    font-size: var(--font-size-5xl);
+  }
+  .consultingTypeLabel {
+    gap: var(--gap-23xl);
+  }
+  .slotsTypeRow {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangleParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .careerConsulting {
+    font-size: var(--font-size-lg);
+  }
+  .consultingTypeLabel {
+    gap: var(--gap-2xl);
+  }
+  .available,
+  .available1,
+  .available2,
+  .sat1may,
+  .today,
+  .tomorrow1 {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,40 @@
+.letsIconstimeLight {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.min {
+  position: relative;
+  display: inline-block;
+  min-width: 74px;
+}
+.minutesLabel {
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+}
+.iconContainer,
+.minutesLabel,
+.sessionIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconContainer {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.sessionIcon {
+  flex-direction: column;
+  padding: var(--padding-2xs) var(--padding-4xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 450px) {
+  .min {
+    font-size: var(--font-size-lgi);
+  }
+}

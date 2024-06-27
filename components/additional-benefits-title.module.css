@@ -1,0 +1,576 @@
+.accessToDiverse,
+.talentIcon {
+  position: absolute;
+  top: 345px;
+  left: 0;
+}
+.talentIcon {
+  width: calc(100% - 24px);
+  top: 0;
+  right: 11px;
+  left: 13px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 350px;
+  object-fit: cover;
+  z-index: 1;
+}
+.accessToDiverseTalentParent {
+  width: 374px;
+  height: 383px;
+  position: relative;
+  max-width: 100%;
+}
+.byTappingInto {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  text-align: left;
+  display: inline-block;
+  min-height: 115px;
+}
+.freelancingTitle,
+.opportunityTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.opportunityTitle {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.freelancingTitle {
+  width: 598px;
+  flex-direction: row;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameWrapper,
+.freelancingTitleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.freelancingTitleParent {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.frameWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-42xl);
+  box-sizing: border-box;
+  min-height: 609px;
+}
+.solutionsIcon {
+  width: 350px;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.frameGroup,
+.savings {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-63xl);
+}
+.savings {
+  width: 1106px;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.solutionsIcon1 {
+  height: 356px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.solutionsIconWrapper {
+  width: 495px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tailoredSolutions {
+  flex: 1;
+  position: relative;
+}
+.internshipDescriptionTitle {
+  width: 318px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl);
+  box-sizing: border-box;
+}
+.studentResourcesCan {
+  height: 138px;
+  flex: 1;
+  position: relative;
+  line-height: 22.4px;
+  display: inline-block;
+  min-height: 138px;
+  max-width: 100%;
+}
+.studentResourcesCanBeTailoWrapper {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.accessDescriptionChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.accessDescription,
+.internshipDescriptionTitleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accessDescription {
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.internshipDescriptionTitleParent {
+  gap: var(--gap-3xl);
+}
+.icon {
+  height: 350.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.internshipTitle {
+  width: 434px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameDiv {
+  align-self: stretch;
+  gap: var(--gap-49xl);
+}
+.frameContainer,
+.frameDiv,
+.solutionsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.solutionsTitle {
+  flex: 1;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 437px;
+}
+.costSavings {
+  width: 200px;
+  position: relative;
+  display: inline-block;
+}
+.startupsOftenOperate {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-align: left;
+}
+.accessDetail,
+.costSavingsParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.costSavingsParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.accessDetail {
+  width: 616px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl);
+  box-sizing: border-box;
+}
+.accessSubtitleChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.accessSubtitle,
+.savingsIcon {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accessSubtitle {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-32xl);
+}
+.savingsIcon {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 2398px;
+  width: 2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -987px;
+  left: 0;
+  border-right: 2px solid var(--ys-primary-color);
+  box-sizing: border-box;
+}
+.modelsIcon {
+  height: 350.7px;
+  width: 350px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.accessTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.flexibleHiringModels {
+  width: 337px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.accessTitleParent,
+.solutionsExplanation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accessTitleParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl-3);
+}
+.solutionsExplanation {
+  width: 398px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.theAbilityTo {
+  align-self: stretch;
+  height: 115px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  display: inline-block;
+  min-height: 115px;
+}
+.solutionsDescription,
+.solutionsSubtitle {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.solutionsDescription {
+  flex-direction: column;
+  gap: var(--gap-14xl);
+}
+.solutionsSubtitle {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-17xl);
+  box-sizing: border-box;
+}
+.frameInner,
+.lineParent {
+  position: relative;
+  box-sizing: border-box;
+}
+.lineParent {
+  width: 570px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+}
+.frameInner {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--ys-primary-color);
+  z-index: 1;
+}
+.frameParent1,
+.savingsIconParent {
+  flex-direction: column;
+  max-width: 100%;
+}
+.frameParent1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-31xl);
+  text-align: left;
+}
+.savingsIconParent {
+  width: 629px;
+  gap: var(--gap-88xl);
+  min-width: 629px;
+}
+.savingsIconParent,
+.savingsParent,
+.solutionsTitleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.solutionsTitleParent {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.savingsParent {
+  width: 1301px;
+  flex-direction: column;
+  gap: var(--gap-18xl-3);
+}
+.icon1,
+.modelDescription,
+.savingsParent {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.icon1 {
+  align-self: stretch;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.modelDescription {
+  height: 599.7px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.additionalBenefitsTitle,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1321px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+}
+.additionalBenefitsTitle {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .solutionsIcon {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+    gap: var(--gap-22xl);
+  }
+  .accessSubtitle,
+  .savingsIconParent {
+    flex: 1;
+  }
+  .solutionsTitleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .accessToDiverse {
+    font-size: var(--font-size-7xl);
+  }
+  .freelancingTitle {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .freelancingTitleParent {
+    gap: var(--gap-xl);
+  }
+  .frameWrapper {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .tailoredSolutions {
+    font-size: var(--font-size-7xl);
+  }
+  .frameDiv {
+    gap: var(--gap-15xl);
+  }
+  .solutionsTitle {
+    min-width: 100%;
+  }
+  .costSavings {
+    font-size: var(--font-size-7xl);
+  }
+  .accessDetail {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .accessSubtitle {
+    gap: var(--gap-6xl);
+  }
+  .flexibleHiringModels {
+    font-size: var(--font-size-7xl);
+  }
+  .solutionsDescription {
+    gap: var(--gap-base);
+  }
+  .frameParent1 {
+    gap: var(--gap-6xl);
+  }
+  .savingsIconParent {
+    gap: var(--gap-34xl);
+    min-width: 100%;
+  }
+  .savingsParent {
+    gap: var(--gap-lgi);
+  }
+  .frameParent {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .accessToDiverse {
+    font-size: var(--font-size-lgi);
+  }
+  .byTappingInto {
+    font-size: var(--font-size-base);
+  }
+  .tailoredSolutions {
+    font-size: var(--font-size-lgi);
+  }
+  .studentResourcesCan {
+    font-size: var(--font-size-base);
+  }
+  .internshipTitle {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frameDiv {
+    gap: var(--gap-mid);
+  }
+  .costSavings {
+    font-size: var(--font-size-lgi);
+  }
+  .startupsOftenOperate {
+    font-size: var(--font-size-base);
+  }
+  .flexibleHiringModels {
+    font-size: var(--font-size-lgi);
+  }
+  .theAbilityTo {
+    font-size: var(--font-size-base);
+  }
+  .savingsIconParent {
+    gap: var(--gap-8xl);
+  }
+}

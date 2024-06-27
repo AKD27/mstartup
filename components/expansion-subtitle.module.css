@@ -1,0 +1,412 @@
+.flexibilityIcon {
+  position: absolute;
+  top: 0;
+  left: 104px;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  z-index: 1;
+}
+.flexibility,
+.thePlatformOffers {
+  position: relative;
+  display: inline-block;
+}
+.flexibility {
+  width: 147px;
+}
+.thePlatformOffers {
+  align-self: stretch;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  text-align: left;
+  min-height: 161px;
+}
+.careerControlContent {
+  position: absolute;
+  top: 349px;
+  left: 0;
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.flexibilityIconParent {
+  height: 555px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.opportunityButton {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.flexibilityDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.globalItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.skillDevelopmentIcon {
+  width: 350px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.skillDevelopmentIconWrapper {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.skillDevelopment {
+  width: 276px;
+  position: relative;
+  display: inline-block;
+}
+.engagingWithStartups {
+  align-self: stretch;
+  height: 184px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  display: inline-block;
+  min-height: 184px;
+}
+.careerControlItem {
+  width: 514px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: 100%;
+}
+.skillDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-6xl);
+  text-align: left;
+}
+.frameParent,
+.globalItemParent,
+.skillDevelopmentContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.globalItemParent {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+}
+.skillDevelopmentContent {
+  flex: 1;
+  padding: var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+  min-width: 437px;
+}
+.byTranscendingRegional,
+.globalReach {
+  position: relative;
+  display: inline-block;
+}
+.globalReach {
+  width: 200px;
+}
+.byTranscendingRegional {
+  flex: 1;
+  max-width: 100%;
+}
+.byTranscendingRegionalBoundWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.byTranscendingRegionalBoundWrapper,
+.frameWrapper,
+.globalReachParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.globalReachParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameWrapper {
+  width: 591px;
+  flex-direction: row;
+  padding: 0 var(--padding-18xl);
+  box-sizing: border-box;
+}
+.globalDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.flexibilityRow,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.flexibilityRow {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.careerControlIcon {
+  position: absolute;
+  top: 0;
+  left: 139px;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  z-index: 1;
+}
+.careerControl {
+  width: 226px;
+  position: relative;
+  display: inline-block;
+}
+.bigstartupsNetworkPuts {
+  align-self: stretch;
+  height: 161px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  display: inline-block;
+  min-height: 161px;
+}
+.careerControlParent,
+.opportunityContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.careerControlParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.opportunityContainer {
+  width: 578px;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.careerDivider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.opportunityContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+}
+.divider {
+  height: 2398px;
+  width: 2px;
+  position: absolute;
+  margin: 0 !important;
+  top: -1642px;
+  left: 0;
+  border-right: 2px solid var(--ys-primary-color);
+  box-sizing: border-box;
+}
+.icon {
+  width: 350px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.dividerParent,
+.frameContainer,
+.opportunityItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.opportunityItem {
+  flex: 1;
+  justify-content: flex-end;
+}
+.dividerParent,
+.frameContainer {
+  width: 465px;
+  justify-content: flex-start;
+  position: relative;
+}
+.frameContainer {
+  position: absolute;
+  top: 349px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  gap: var(--gap-28xl);
+}
+.careerControlIconParent {
+  align-self: stretch;
+  height: 983px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+}
+.flexibilityRowParent {
+  width: 629px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-110xl);
+  min-width: 629px;
+  max-width: 100%;
+}
+.expansionSubtitle,
+.skillDevelopmentContentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skillDevelopmentContentParent {
+  width: 1301px;
+  justify-content: center;
+  row-gap: 20px;
+}
+.expansionSubtitle {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl) var(--padding-12xl-7);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1125px) {
+  .flexibilityRowParent,
+  .frameGroup {
+    flex: 1;
+  }
+  .skillDevelopmentContentParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .flexibility,
+  .skillDevelopment {
+    font-size: var(--font-size-7xl);
+  }
+  .globalItemParent {
+    gap: var(--gap-11xl);
+  }
+  .skillDevelopmentContent {
+    min-width: 100%;
+  }
+  .careerControl,
+  .globalReach {
+    font-size: var(--font-size-7xl);
+  }
+  .opportunityContainerParent {
+    gap: var(--gap-base);
+  }
+  .frameContainer {
+    gap: var(--gap-4xl);
+  }
+  .flexibilityRowParent {
+    gap: var(--gap-45xl);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flexibility {
+    font-size: var(--font-size-lgi);
+  }
+  .thePlatformOffers {
+    font-size: var(--font-size-base);
+  }
+  .skillDevelopment {
+    font-size: var(--font-size-lgi);
+  }
+  .engagingWithStartups {
+    font-size: var(--font-size-base);
+  }
+  .globalReach {
+    font-size: var(--font-size-lgi);
+  }
+  .byTranscendingRegional {
+    font-size: var(--font-size-base);
+  }
+  .careerControl {
+    font-size: var(--font-size-lgi);
+  }
+  .bigstartupsNetworkPuts {
+    font-size: var(--font-size-base);
+  }
+  .flexibilityRowParent {
+    gap: var(--gap-13xl);
+  }
+}

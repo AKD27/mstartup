@@ -1,0 +1,602 @@
+.priceDivider,
+.profileWrapperChild {
+  position: relative;
+  box-sizing: border-box;
+}
+.profileWrapperChild {
+  width: 1389px;
+  height: 466px;
+  box-shadow: 0 4px 4px rgba(252, 28, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--color-mistyrose);
+  display: none;
+  max-width: 100%;
+}
+.priceDivider {
+  width: 1px;
+  flex: 1;
+  border-right: 1px solid var(--color-silver);
+  z-index: 1;
+}
+.pricingWrapper {
+  height: 244px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.consultationPrices {
+  margin: 0;
+  width: 275px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.arcticonspriceconverter {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.minSession {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.sessionDuration {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.priceDetails,
+.priceValue,
+.sessionDuration {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.priceValue {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.priceDetails {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 109px;
+}
+.arcticonspriceconverter1 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.priceDetails1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.hrSession {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.optionItem1 {
+  flex: 0.8929;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 109px;
+}
+.letsIconstimeLight {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.availability {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.availabilityWrapper,
+.optionItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.optionItem {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.div {
+  position: relative;
+  display: inline-block;
+  min-width: 59px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.priceSymbol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.bookNow,
+.div1 {
+  position: relative;
+  z-index: 1;
+}
+.div1 {
+  display: inline-block;
+  min-width: 59px;
+  white-space: nowrap;
+}
+.bookNow {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.bookButton,
+.priceInput,
+.priceInputInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bookButton {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xl);
+  font-size: var(--font-size-11xl);
+  color: var(--background-color);
+}
+.priceInput,
+.priceInputInner {
+  flex-direction: column;
+}
+.priceInputInner {
+  align-self: stretch;
+  gap: var(--gap-77xl);
+}
+.priceInput {
+  flex: 1;
+  padding: var(--padding-8xs) 0 0;
+}
+.monSat {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 1;
+}
+.booking,
+.buttonWrapper,
+.priceValue1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.priceValue1 {
+  width: 263px;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.booking,
+.buttonWrapper {
+  max-width: 100%;
+}
+.buttonWrapper {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.booking {
+  width: 471px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+  margin-top: -3px;
+  color: var(--color-black);
+}
+.optionList,
+.priceHeader,
+.priceOptions {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.optionList {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.priceHeader,
+.priceOptions {
+  align-items: flex-start;
+}
+.priceOptions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--text-secondary);
+}
+.priceHeader {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+  min-width: 319px;
+}
+.pricing,
+.profileContent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.pricing {
+  width: 516px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 516px;
+}
+.profileContent {
+  width: 1195px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.categoryLabelsChild {
+  height: 50px;
+  width: 244px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavenderblush);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.marketingConsulting {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  z-index: 2;
+}
+.categoryLabels {
+  cursor: pointer;
+  border: 2px solid var(--color-whitesmoke-200);
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  background-color: var(--color-lavenderblush);
+  width: 244px;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.accountsLabel:hover,
+.accountsLabelChild,
+.categoryLabels1:hover,
+.categoryLabels:hover,
+.rectangleGroup:hover,
+.rectangleParent:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 2px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+}
+.accountsLabelChild {
+  height: 50px;
+  width: 244px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavenderblush);
+  border: 2px solid var(--color-whitesmoke-200);
+  display: none;
+}
+.accountsConsulting {
+  width: 191px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.accountsCategory,
+.accountsLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.accountsLabel {
+  cursor: pointer;
+  border: 2px solid var(--color-whitesmoke-200);
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  background-color: var(--color-lavenderblush);
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.accountsCategory {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 164px;
+}
+.categoryLabelsItem {
+  height: 50px;
+  width: 244px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavenderblush);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.buisnessConsulting {
+  width: 186px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.categoryLabels1,
+.frameChild {
+  width: 244px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavenderblush);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+}
+.categoryLabels1 {
+  cursor: pointer;
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameChild {
+  height: 50px;
+  position: relative;
+  display: none;
+}
+.buisnessConsulting1 {
+  width: 186px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.categoryLabels2,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 2px solid var(--color-whitesmoke-200);
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  background-color: var(--color-lavenderblush);
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.categoryLabels2 {
+  flex: 0.9683;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base) var(--padding-11xs) 0;
+  box-sizing: border-box;
+  min-width: 169px;
+}
+.frameItem {
+  height: 50px;
+  width: 244px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavenderblush);
+  border: 2px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.buisnessConsulting2 {
+  width: 186px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--ys-primary-color);
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.categoryLabels3,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 2px solid var(--color-whitesmoke-200);
+  padding: var(--padding-2xs) var(--padding-4xl) var(--padding-3xs);
+  background-color: var(--color-lavenderblush);
+  align-self: stretch;
+  border-radius: var(--br-21xl);
+  flex-direction: row;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.categoryLabels3 {
+  width: 244px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.categories {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.consultingCategories,
+.profileWrapper {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.consultingCategories {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xl);
+}
+.profileWrapper {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(252, 28, 0, 0.25);
+  border-radius: var(--br-3xs);
+  background-color: var(--background-color);
+  border: 1px solid var(--color-mistyrose);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-11xl) var(--padding-69xl)
+    var(--padding-13xl);
+  gap: var(--gap-lgi);
+}
+.consultantProfile,
+.main {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.consultantProfile {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xl) 0 var(--padding-9xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+}
+.main {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1200px) {
+  .pricing {
+    flex: 1;
+  }
+  .profileContent {
+    flex-wrap: wrap;
+  }
+  .accountsCategory,
+  .categoryLabels2 {
+    flex: 1;
+  }
+  .categories {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .consultationPrices {
+    font-size: var(--font-size-5xl);
+  }
+  .optionItem {
+    flex-wrap: wrap;
+  }
+  .bookNow {
+    font-size: var(--font-size-5xl);
+  }
+  .buttonWrapper,
+  .pricing {
+    flex-wrap: wrap;
+  }
+  .pricing {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .consultationPrices {
+    font-size: var(--font-size-lg);
+  }
+  .hrSession,
+  .minSession {
+    font-size: var(--font-size-base);
+  }
+  .optionItem1 {
+    flex: 1;
+  }
+  .availability,
+  .div,
+  .div1 {
+    font-size: var(--font-size-base);
+  }
+  .bookNow {
+    font-size: var(--font-size-lg);
+  }
+  .monSat {
+    font-size: var(--font-size-base);
+  }
+  .profileWrapper {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,236 @@
+.profilePictureIcon {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.skills {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 74px;
+  z-index: 1;
+}
+.nameAndSkills,
+.nameWrapper,
+.skillLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skillLabel {
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+}
+.nameAndSkills,
+.nameWrapper {
+  flex-direction: column;
+}
+.nameWrapper {
+  gap: var(--gap-3xl);
+}
+.nameAndSkills {
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 200px;
+}
+.ridhimaSen {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.consultingLeader {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.consultantDetails,
+.designation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.designation {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) 0 var(--padding-11xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+}
+.consultantDetails {
+  width: 174px;
+  flex-direction: column;
+}
+.grommetIconsuserExpert {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.fluentMdl2calendarYearIcon,
+.fluentpayment20RegularIcon {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+.fluentpayment20RegularIcon {
+  top: 38px;
+  left: 0;
+}
+.experienceBadge {
+  height: 58px;
+  width: 21px;
+  position: relative;
+}
+.yearsOfExperience {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.experienceDetails,
+.experienceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.experienceDetails {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.experienceWrapper {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+}
+.qualifiedInStartup {
+  width: 247px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.yearsOfExperience1 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.feeDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+}
+.consultationFee1000 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.feeDetails1 {
+  width: 208px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.consultationFee,
+.experience,
+.feeDetails1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.consultationFee {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+  min-width: 196px;
+}
+.experience {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mini);
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+}
+.profileInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 220px;
+}
+.headerDetails,
+.profileHeader,
+.profileInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headerDetails {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+}
+.profileHeader {
+  width: 563px;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 563px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1200px) {
+  .profileHeader {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .skills {
+    font-size: var(--font-size-5xl);
+  }
+  .nameAndSkills {
+    flex: 1;
+  }
+  .ridhimaSen {
+    font-size: var(--font-size-5xl);
+  }
+  .headerDetails {
+    flex-wrap: wrap;
+  }
+  .profileHeader {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ridhimaSen,
+  .skills {
+    font-size: var(--font-size-lg);
+  }
+  .consultingLeader {
+    font-size: var(--font-size-base);
+  }
+  .experience {
+    flex-wrap: wrap;
+  }
+}

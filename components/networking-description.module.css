@@ -1,0 +1,300 @@
+.postIcon {
+  height: 337px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.technologyDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl) 0 var(--padding-35xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  height: 55px;
+  width: 332px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--ys-primary-color);
+  display: none;
+  max-width: 100%;
+}
+.postProjects {
+  width: 153px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--background-color);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-2xs);
+  background-color: var(--ys-primary-color);
+  flex: 1;
+  border-radius: var(--br-21xl);
+  justify-content: center;
+  white-space: nowrap;
+}
+.rectangleGroup:hover,
+.rectangleParent:hover {
+  background-color: var(--color-orangered);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl);
+}
+.postFreelancingProjects {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.portfolioItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-23xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.weProvideFlexible {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.portfolioItemParent {
+  align-self: stretch;
+  gap: var(--gap-4xs);
+}
+.frameGroup,
+.portfolioItemParent,
+.technologyDescriptionParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.technologyDescriptionParent {
+  flex: 1;
+  gap: var(--gap-10xs);
+  min-width: 292px;
+}
+.frameItem,
+.internshipIcon {
+  position: relative;
+  max-width: 100%;
+}
+.internshipIcon {
+  height: 337px;
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameItem {
+  height: 55px;
+  width: 332px;
+  border-radius: var(--br-21xl);
+  background-color: var(--ys-primary-color);
+  display: none;
+}
+.postJobs {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--background-color);
+  text-align: center;
+  z-index: 2;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-10xl) var(--padding-2xs);
+  background-color: var(--ys-primary-color);
+  width: 332px;
+  margin: 0 !important;
+  position: absolute;
+  right: -5px;
+  bottom: -53px;
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.internshipIconParent,
+.network,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.internshipIconParent {
+  flex: 1;
+  position: relative;
+}
+.network {
+  width: 435px;
+  padding: 0 var(--padding-30xl);
+  box-sizing: border-box;
+}
+.postJobs1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.technologiesDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-45xl) 0 var(--padding-44xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.withBigstartupsNetwork {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.technologiesDetailsParent {
+  align-self: stretch;
+  gap: var(--gap-8xs);
+}
+.networkContent,
+.networkParent,
+.technologiesDetailsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.networkParent {
+  align-self: stretch;
+  gap: var(--gap-60xl);
+}
+.networkContent {
+  flex: 1;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 292px;
+}
+.frameParent,
+.networkingDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1005px;
+  flex-wrap: wrap;
+  gap: var(--gap-86xl);
+}
+.networkingDescription {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-58xl-7) var(--padding-118xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1350px) {
+  .networkingDescription {
+    padding-left: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frameParent {
+    gap: var(--gap-33xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .postFreelancingProjects,
+  .postJobs1 {
+    font-size: var(--font-size-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-7xl);
+  }
+  .networkingDescription {
+    padding-left: var(--padding-15xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameWrapper,
+  .technologyDescription {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .postFreelancingProjects {
+    font-size: var(--font-size-lg);
+  }
+  .portfolioItem {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .weProvideFlexible {
+    font-size: var(--font-size-base);
+  }
+  .network {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .postJobs1 {
+    font-size: var(--font-size-lg);
+  }
+  .technologiesDetails {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .withBigstartupsNetwork {
+    font-size: var(--font-size-base);
+  }
+  .networkParent {
+    gap: var(--gap-20xl);
+  }
+}

@@ -1,0 +1,417 @@
+.sLogo112821678995799ImgIcon {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.techSavvyReal {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 3;
+}
+.sellstateHeartlandRealty {
+  width: 235px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  z-index: 3;
+}
+.techSavvyRealEstateAgentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+}
+.locationIcon {
+  width: 14px;
+  height: 18px;
+  position: relative;
+  z-index: 3;
+}
+.locationIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.overlandPark {
+  position: relative;
+  z-index: 3;
+}
+.frameParent2 {
+  flex-direction: row;
+  gap: var(--gap-8xs);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+}
+.frameDiv,
+.frameParent1,
+.frameParent2,
+.sLogo112821678995799ImgParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameDiv,
+.sLogo112821678995799ImgParent {
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 250px;
+}
+.sLogo112821678995799ImgParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.jobDescription {
+  margin: 0;
+  width: 211px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 3;
+}
+.frameContainer {
+  width: 509px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  min-width: 509px;
+  max-width: 100%;
+}
+.frameChild {
+  height: 57px;
+  width: 238px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--ys-primary-color);
+  border: 1px solid var(--ys-primary-color);
+  box-sizing: border-box;
+  display: none;
+}
+.viewJob {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--background-color);
+  text-align: left;
+  z-index: 1;
+}
+.frameWrapper1,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 1px solid var(--ys-primary-color);
+  padding: var(--padding-6xs) var(--padding-22xl) var(--padding-9xs);
+  background-color: var(--ys-primary-color);
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.rectangleParent:hover {
+  background-color: var(--color-orangered);
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+}
+.frameWrapper1 {
+  width: 238px;
+  flex-direction: column;
+  padding: var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 942px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs) var(--padding-10xs);
+  box-sizing: border-box;
+}
+.candidateWillServe,
+.frameItem {
+  position: relative;
+  max-width: 100%;
+}
+.frameItem {
+  width: 977px;
+  height: 317px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gainsboro-300);
+  box-sizing: border-box;
+  display: none;
+}
+.candidateWillServe {
+  height: 50px;
+  flex: 1;
+  display: inline-block;
+}
+.candidateDescription,
+.frameInner {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.candidateDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs) var(--padding-6xs);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.frameInner {
+  width: 931px;
+  height: 1px;
+  border-top: 1px solid var(--color-darkgray);
+}
+.date,
+.dateValue,
+.frameInner {
+  position: relative;
+  z-index: 3;
+}
+.date {
+  display: inline-block;
+  min-width: 49px;
+}
+.dateValue {
+  align-self: stretch;
+}
+.dateValueWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.dateParent,
+.dateValueWrapper,
+.frameWrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dateParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.frameWrapper3 {
+  width: 144px;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.jobType {
+  align-self: stretch;
+  position: relative;
+  z-index: 3;
+}
+.jobTypeWrapper {
+  width: 91px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.rectangleDiv {
+  height: 31px;
+  width: 140px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender);
+  display: none;
+}
+.onSite {
+  position: relative;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 4;
+}
+.rectangleGroup {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-10xl) 0;
+  z-index: 3;
+  font-size: var(--font-size-5xl);
+}
+.frameParent4,
+.frameWrapper4,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent4 {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.frameWrapper4 {
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-6xl) 0 0;
+}
+.status {
+  position: relative;
+  display: inline-block;
+  min-width: 66px;
+  z-index: 3;
+}
+.statusWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frameChild1 {
+  height: 31px;
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-honeydew);
+  display: none;
+}
+.approved {
+  position: relative;
+  display: inline-block;
+  min-width: 90px;
+  z-index: 4;
+}
+.frameParent5,
+.rectangleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleContainer {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-honeydew);
+  padding: var(--padding-9xs) var(--padding-35xl) var(--padding-9xs)
+    var(--padding-37xl);
+  z-index: 3;
+  color: var(--color-darkgreen);
+}
+.frameParent5 {
+  gap: var(--gap-smi);
+}
+.frameParent,
+.frameParent3,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.frameWrapper2 {
+  width: 909px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.frameParent {
+  position: absolute;
+  top: 473px;
+  left: 21px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gainsboro-300);
+  width: 977px;
+  flex-direction: column;
+  padding: var(--padding-base) 0 var(--padding-smi) var(--padding-2xl);
+  gap: var(--gap-2xs);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--text-secondary);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 825px) {
+  .frameContainer {
+    flex: 1;
+  }
+  .frameGroup,
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 675px) {
+  .sLogo112821678995799ImgParent {
+    flex-wrap: wrap;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .techSavvyReal {
+    font-size: var(--font-size-3xl);
+  }
+  .overlandPark,
+  .sellstateHeartlandRealty {
+    font-size: var(--font-size-base);
+  }
+  .jobDescription {
+    font-size: var(--font-size-3xl);
+  }
+  .date,
+  .jobType {
+    font-size: var(--font-size-base);
+  }
+  .onSite {
+    font-size: var(--font-size-lgi);
+  }
+  .approved,
+  .status {
+    font-size: var(--font-size-base);
+  }
+}

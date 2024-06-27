@@ -1,0 +1,52 @@
+.bookingDetails {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+.consultingPageProfile,
+.joinSessionButtonContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.joinSessionButtonContainer {
+  width: 366px;
+  flex-direction: row;
+  padding: 0 var(--padding-48xl) var(--padding-6xs);
+  max-width: 100%;
+}
+.consultingPageProfile {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-color);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 5800px;
+  gap: var(--gap-7xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 750px) {
+  .bookingDetails {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .bookingDetails {
+    font-size: var(--font-size-lg);
+  }
+  .joinSessionButtonContainer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

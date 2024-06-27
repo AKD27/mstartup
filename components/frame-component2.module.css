@@ -1,0 +1,181 @@
+.workWithStartups {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.workWithStartupsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wereDedicatedTo {
+  width: 574px;
+  height: 69px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 22.4px;
+  display: inline-block;
+  min-height: 69px;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.frameChild {
+  height: 75px;
+  width: 445px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--ys-primary-color);
+  display: none;
+  max-width: 100%;
+}
+.button {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-source-sans-pro);
+  color: var(--background-color);
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lgi) var(--padding-xl) var(--padding-lg)
+    var(--padding-4xl);
+  background-color: var(--ys-primary-color);
+  flex: 1;
+  border-radius: var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent:hover {
+  background-color: var(--color-orangered);
+}
+.frameDiv,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  width: 447px;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameGroup,
+.frameWrapper {
+  flex-direction: column;
+}
+.frameGroup {
+  width: 764px;
+  gap: var(--gap-8xl);
+  flex-shrink: 0;
+  max-width: 118%;
+}
+.frameWrapper {
+  width: 648px;
+  padding: 0 0 var(--padding-128xl);
+  box-sizing: border-box;
+  min-width: 648px;
+  min-height: 390px;
+  max-width: 100%;
+}
+.untitledDesign13 {
+  width: 577px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameParent,
+.workWithStartupsInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-items: flex-end;
+  row-gap: 20px;
+}
+.workWithStartupsInner {
+  align-items: flex-start;
+  padding: 0 var(--padding-58xl) var(--padding-7xl-7);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-top: -1.7px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1350px) {
+  .frameWrapper,
+  .untitledDesign13 {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .workWithStartupsInner {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .frameWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .workWithStartups {
+    font-size: var(--font-size-19xl);
+  }
+  .button {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .workWithStartups {
+    font-size: var(--font-size-10xl);
+  }
+  .wereDedicatedTo {
+    font-size: var(--font-size-base);
+  }
+  .button {
+    font-size: var(--font-size-lgi);
+  }
+  .frameWrapper {
+    padding-bottom: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+}
