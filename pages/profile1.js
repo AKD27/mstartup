@@ -3,7 +3,7 @@ import DateTime from "../components/date-time";
 import BookingStatus from "../components/booking-status";
 import styles from "./consulting-page-profile1.module.css";
 
-const ConsultingPageProfile1 = () => {
+const profile1 = () => {
   return (
     <div className={styles.consultingPageProfile}>
       <Component
@@ -19,4 +19,4 @@ const ConsultingPageProfile1 = () => {
   );
 };
 
-export default ConsultingPageProfile1;
+export default profile1;

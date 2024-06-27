@@ -1,7 +1,7 @@
 import ContentCell from "../components/content-cell";
 import styles from "./daily-spotlight-monthly.module.css";
 
-const DailySpotlightMonthly = () => {
+const Home = () => {
   return (
     <div className={styles.dailySpotlightMonthly}>
       <main className={styles.spotlightMonthly}>
@@ -340,4 +340,4 @@ const DailySpotlightMonthly = () => {
   );
 };
 
-export default DailySpotlightMonthly;
+export default Home;

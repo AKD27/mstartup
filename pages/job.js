@@ -3,7 +3,7 @@ import LiveStatus from "../components/live-status";
 import GroupComponent from "../components/group-component";
 import styles from "./job-is-live.module.css";
 
-const JobIsLive = () => {
+const job = () => {
   return (
     <div className={styles.jobIsLive}>
       <main className={styles.whatsNext}>
@@ -37,4 +37,4 @@ const JobIsLive = () => {
   );
 };
 
-export default JobIsLive;
+export default job;

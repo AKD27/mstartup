@@ -2,8 +2,9 @@ import Main from "../components/main";
 import SlotsContent from "../components/slots-content";
 import SessionDuration from "../components/session-duration";
 import styles from "./consulting-page-profile.module.css";
+import Navbar from '../components/Navbar'
 
-const ConsultingPageProfile = () => {
+const profile = () => {
   return (
     <div className={styles.consultingPageProfile}>
       <Main />
@@ -29,4 +30,4 @@ const ConsultingPageProfile = () => {
   );
 };
 
-export default ConsultingPageProfile;
+export default profile;
